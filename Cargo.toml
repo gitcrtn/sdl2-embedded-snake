@@ -1,0 +1,11 @@
+[package]
+name = "sdl2snake"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+embedded-graphics = "0.8.1"
+embedded-graphics-framebuf = "0.5.0"
+embedded-snake = { git = "https://github.com/gitcrtn/embedded-snake-rs" }
+sdl2 = { version = "0.36.0", default-features = false, features = ["image"] }
+rand = "0.8.5"
